@@ -260,6 +260,7 @@ and (max-width: 1024px) {
         margin-left: auto;
         margin-right: auto;
         
+        // overflow: hidden;
         .boxes{
             margin-left: auto;
         margin-right: auto;
@@ -287,6 +288,7 @@ and (max-width: 1024px) {
                     }
                 &:hover::before{
                     display: block;
+                    overflow: visible;
                     animation: bord 0.8s linear 0.3s forwards;
                 }
                 h1{

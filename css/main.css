@@ -339,6 +339,7 @@ a {
 }
 .products .container .boxes .box:hover::before {
   display: block;
+  overflow: visible;
   -webkit-animation: bord 0.8s linear 0.3s forwards;
           animation: bord 0.8s linear 0.3s forwards;
 }
