@@ -13,5 +13,5 @@ navLinks.forEach(link =>{
         e.currentTarget.classList.add('lin-active')
     });
 });
-ScrollReveal().reveal('.box:nth-child(even)', { delay: 200 });
-ScrollReveal().reveal('.box:nth-child(odd)', { delay: 300 });
+// ScrollReveal().reveal('.box:nth-child(even)', { delay: 200 });
+// ScrollReveal().reveal('.box:nth-child(odd)', { delay: 300 });
